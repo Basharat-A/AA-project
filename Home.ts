@@ -10,7 +10,7 @@ export default ({usenavigation}) => {
   return (
     <SafeAreaView style={{flex: 1, backgroundColor: '#E5F3FD'}}>
       <TouchableOpacity
-        onPress={() => navigation.navigate('Fscreen')}
+        onPress={() => navigation.navigate('options')}
         style={{
           flexDirection: 'row',
           backgroundColor: '#E5F3FD',
